@@ -1,0 +1,28 @@
+#birinci{
+    background: blue;
+    float: left;
+}
+#ikinci{
+    background: coral;
+    float: left;
+}
+#ucuncu{
+    background: darkcyan;
+    float: left;
+}
+#dorduncu{
+    background: darkkhaki;
+    float: left;
+}
+
+#container{
+    background: gray;
+    width: auto;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    overflow: scroll;
+}
