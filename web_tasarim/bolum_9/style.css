@@ -1,33 +1,53 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 10px;
 }
-body{
-    font-family: "Lato",sans-serif;
+
+body {
+    font-family: "Lato", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.5;
     background-color: #fff;
 }
-a{
-    text-decoration: none;
-    
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: Montserrat;
 }
-ul{
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
     list-style-type: none;
 }
-.clearfix::after{
+
+.img-fluid {
+    max-width: 256px;
+    height: auto;
+
+}
+
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
-.container{
+
+.container {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
@@ -35,37 +55,42 @@ ul{
     padding-right: 0.5rem;
 }
 
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase;
 }
+
 /*Navbar*/
-nav{
+nav {
+    width: 100%;
     font-family: "Montserrat", sans-serif;
     background-color: #2C3E4F;
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
 }
-#logo-box{
+
+#logo-box {
     float: left;
     padding-top: 0.5rem;
 }
-#logo-box .logo{
+
+#logo-box .logo {
     color: #fff;
     font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 
-#nav-links{
+#nav-links {
     float: right;
 }
 
-#nav-links .nav-item{
+#nav-links .nav-item {
     float: left;
     margin: 0.5rem;
 }
 
-#nav-links .nav-link{
+#nav-links .nav-link {
     color: #fff;
     font-size: 1.6rem;
     font-weight: 700;
@@ -75,6 +100,44 @@ nav{
     transition: color 0.4s;
 }
 
-#nav-links .nav-link:hover{
+#nav-links .nav-link:hover {
     color: #1ABC9B;
+}
+
+header {
+    background-color: #1ABC9B;
+    height: 700px;
+    padding-top: calc(106px + 7rem);
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 6rem;
+}
+header h2{
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+.star-light {
+    border: none;
+    border: 0.4rem solid #fff;
+    max-width: 25rem;
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+
+.star-light::after {
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -30px;
+    padding: 0 8px;
+    background: #1ABC9B;
 }
