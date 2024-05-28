@@ -41,6 +41,43 @@ section {
     text-align: center;
 }
 
+.btn {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-outline {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    padding: 2.2rem 1.6rem;
+}
+
+.btn-outline:hover {
+    color: #212529;
+    background-color: #fff;
+
+}
+
+.btn-primary {
+    background-color: #1ABC9B;
+    border-color: #1ABC9B;
+    padding: 1.2rem 1rem;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #128F76;
+    border-color: #128F76;
+
+}
+
 .img-fluid {
     max-width: 256px;
     height: auto;
@@ -232,24 +269,24 @@ hr.star-dark {
 
 }
 
-#about-text{
+#about-text {
     text-align: left;
 }
 
-#about-text .left{
+#about-text .left {
     float: left;
     width: 50%;
     padding-right: 2rem;
     padding-left: 23rem;
 }
 
-#about-text .right{
+#about-text .right {
     float: right;
     width: 50%;
     padding-left: 2rem;
     padding-right: 23rem;
 }
 
-#about-text .text{
+#about-text .text {
     font-size: 2rem;
 }
